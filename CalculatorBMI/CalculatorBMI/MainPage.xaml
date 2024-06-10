@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalculatorBMI.MainPage">
+
+    <StackLayout Padding="30">
+        <Label Text="BMI Calculator" 
+               FontSize="32"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+
+        <Entry x:Name="weightEntry"
+               Placeholder="Enter weight (kg)"
+               Keyboard="Numeric"
+               HorizontalOptions="FillAndExpand" />
+
+        <Entry x:Name="heightEntry"
+               Placeholder="Enter height (cm)"
+               Keyboard="Numeric"
+               HorizontalOptions="FillAndExpand" />
+
+        <Entry x:Name="ageEntry"
+               Placeholder="Enter age"
+               Keyboard="Numeric"
+               HorizontalOptions="FillAndExpand" />
+
+        <Picker x:Name="genderPicker"
+                Title="Select gender"
+                HorizontalOptions="FillAndExpand">
+            <Picker.Items>
+                <x:String>Male</x:String>
+                <x:String>Female</x:String>
+                <x:String>Other</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <Button Text="Calculate BMI"
+                Clicked="OnCalculateBMI"
+                HorizontalOptions="Center" />
+
+        <Label x:Name="resultLabel"
+               FontSize="24"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+</ContentPage>

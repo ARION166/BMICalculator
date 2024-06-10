@@ -1,0 +1,1 @@
+C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\CalculatorBMI.csproj;x64
