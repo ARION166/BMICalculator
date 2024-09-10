@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-10T13:12:13.628</Modified>
+      <Modified>2024-09-10T13:56:46.501</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-10T12:47:53.519</Modified>
+      <Modified>2024-09-10T08:53:28.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CalculatorBMI.runtimeconfig.json">
       <PackagePath>CalculatorBMI.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CalculatorBMI.dll">
       <PackagePath>CalculatorBMI.dll</PackagePath>
-      <Modified>2024-06-10T13:12:13.153</Modified>
+      <Modified>2024-09-10T13:56:45.599</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CalculatorBMI.exe</PackagePath>
-      <Modified>2024-06-10T13:12:13.161</Modified>
+      <Modified>2024-09-10T13:56:45.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -267,27 +267,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-06-10T12:46:19.027</Modified>
+      <Modified>2024-09-10T08:47:10.464</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-06-10T12:46:19.045</Modified>
+      <Modified>2024-09-10T08:47:10.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-06-10T12:46:19.066</Modified>
+      <Modified>2024-09-10T08:47:10.494</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-06-10T12:46:19.104</Modified>
+      <Modified>2024-09-10T08:47:10.519</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-06-10T12:46:19.209</Modified>
+      <Modified>2024-09-10T08:47:10.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tabela_bmi.scale-100.png">
+      <PackagePath>tabela_bmi.scale-100.png</PackagePath>
+      <Modified>2024-09-10T08:46:23.750</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CalculatorBMI.deps.json">
       <PackagePath>CalculatorBMI.deps.json</PackagePath>
-      <Modified>2024-06-10T12:47:52.900</Modified>
+      <Modified>2024-09-10T08:53:27.766</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\artur\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

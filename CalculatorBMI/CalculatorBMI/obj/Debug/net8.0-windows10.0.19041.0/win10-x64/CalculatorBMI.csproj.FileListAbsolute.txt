@@ -176,3 +176,4 @@ C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\obj\De
 C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tabela_bmi.scale-100.png

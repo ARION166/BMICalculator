@@ -214,6 +214,9 @@
     <AppxPackagedFile Include="C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tabela_bmi.scale-100.png">
+      <PackagePath>tabela_bmi.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\artur\Documents\GitHub\BMICalculator\CalculatorBMI\CalculatorBMI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CalculatorBMI.deps.json">
       <PackagePath>CalculatorBMI.deps.json</PackagePath>
     </AppxPackagedFile>

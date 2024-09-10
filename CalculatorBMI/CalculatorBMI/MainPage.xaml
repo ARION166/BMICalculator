@@ -3,44 +3,89 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CalculatorBMI.MainPage">
 
-    <StackLayout Padding="30">
-        <Label Text="BMI Calculator" 
-               FontSize="32"
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand" />
+    <Grid Padding="30" ColumnSpacing="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
 
-        <Entry x:Name="weightEntry"
-               Placeholder="Enter weight (kg)"
-               Keyboard="Numeric"
-               HorizontalOptions="FillAndExpand" />
+        <StackLayout Grid.Column="0">
+            <Label Text="BMI Calculator" 
+                   FontSize="32"
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />
 
-        <Entry x:Name="heightEntry"
-               Placeholder="Enter height (cm)"
-               Keyboard="Numeric"
-               HorizontalOptions="FillAndExpand" />
+            <Entry x:Name="weightEntry"
+                   Placeholder="Enter weight (kg)"
+                   Keyboard="Numeric"
+                   HorizontalOptions="FillAndExpand" />
 
-        <Entry x:Name="ageEntry"
-               Placeholder="Enter age"
-               Keyboard="Numeric"
-               HorizontalOptions="FillAndExpand" />
+            <Entry x:Name="heightEntry"
+                   Placeholder="Enter height (cm)"
+                   Keyboard="Numeric"
+                   HorizontalOptions="FillAndExpand" />
 
-        <Picker x:Name="genderPicker"
-                Title="Select gender"
-                HorizontalOptions="FillAndExpand">
-            <Picker.Items>
-                <x:String>Male</x:String>
-                <x:String>Female</x:String>
-                <x:String>Other</x:String>
-            </Picker.Items>
-        </Picker>
+            <Entry x:Name="ageEntry"
+                   Placeholder="Enter age"
+                   Keyboard="Numeric"
+                   HorizontalOptions="FillAndExpand" />
 
-        <Button Text="Calculate BMI"
-                Clicked="OnCalculateBMI"
-                HorizontalOptions="Center" />
+            <Picker x:Name="genderPicker"
+                    Title="Select gender"
+                    HorizontalOptions="FillAndExpand">
+                <Picker.Items>
+                    <x:String>Male</x:String>
+                    <x:String>Female</x:String>
+                    <x:String>Other</x:String>
+                </Picker.Items>
+            </Picker>
 
-        <Label x:Name="resultLabel"
-               FontSize="24"
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+            <Button Text="Calculate BMI"
+                    Clicked="OnCalculateBMI"
+                    HorizontalOptions="Center" />
+
+            <Label x:Name="resultLabel"
+                   FontSize="24"
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />
+
+            <Button Text="Show BMI Table"
+                    Clicked="OnShowBMITable"
+                    HorizontalOptions="Center" />
+        </StackLayout>
+
+        <StackLayout Grid.Column="1" Padding="10">
+            <Label Text="Calculation History"
+                   FontSize="20"
+                   HorizontalOptions="Center" />
+
+            <ListView x:Name="historyListView"
+                      HorizontalOptions="FillAndExpand"
+                      VerticalOptions="FillAndExpand">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="5,10">
+                                <Label Text="{Binding .}" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+
+        <Grid x:Name="bmiTableOverlay" IsVisible="False" BackgroundColor="#80000000">
+            <Image x:Name="bmiTableImage"
+                   Source="tabela_bmi.png"
+                   Aspect="AspectFit"
+                   HorizontalOptions="FillAndExpand"
+                   VerticalOptions="FillAndExpand"
+                   Margin="20"/>
+            <Button Text="Close"
+                    Clicked="OnCloseImage"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Start"
+                    Margin="10"/>
+        </Grid>
+    </Grid>
 </ContentPage>
